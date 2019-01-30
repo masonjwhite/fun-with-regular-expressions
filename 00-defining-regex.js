@@ -1,9 +1,9 @@
 // There are two different ways of defining a regular expression (regex)
 
 // 1. Constructor
-// - This is a great use case if we need to create dynamic 
+// - This is a great use case if we need to create dynamic regex
 const stringToMatch = 'baseball';
-const myRegex = RegExp(stringToMatch);
+const myRegex = new RegExp(stringToMatch);
 
 // 2. Literal
 // - This is a great use case if we need to create a quick shorthand regex
